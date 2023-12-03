@@ -1,0 +1,305 @@
+/*Body  design*/
+body{
+    background-image: url(BGpic.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    font-family: sans-serif , Arial, Helvetica;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.bg{
+    background-color: rgba(0, 0, 0, 0.5);
+    padding-top: 15px;
+}
+/*End of the body  design*/
+
+/*The icon of the website*/
+.icon{
+   width: 60px;
+   height: 50px;
+   float: right;
+}
+/*End of the icon website*/
+#h1{
+    margin-left: 25px;
+    color: #fff;
+}
+/* The title of the  website*/
+#Webname{
+ text-align: right;
+   color: white;
+  margin: 10px 12px ;
+}
+/*End of the css of the logo*/
+
+/*Start of navbar*/
+nav{
+    background-color:rgba(103, 103, 107, 0.5);
+    padding: 10px; 
+}
+
+a{
+    color: white;
+    padding: 20px 30px;
+    display: inline-block;
+    text-decoration: none;
+    margin: 0;
+}
+#m{
+    margin-left: 350px;
+}
+ a:hover{
+    background-color: rgb(13, 111, 240);
+  }
+  
+  .active{
+      background-color: rgba(151, 239, 245, 0.795);
+      color: rgba(10, 10, 10, 0.87);
+  }
+
+/*End of the navbar */
+  
+/*Sapces between the button title */
+.margimP{
+    margin: 0;
+    color: rgb(255, 255, 255);
+}
+/* logo text : CIT230*/
+.names{
+    color: white;
+    font-size: large;
+    margin-left: 25px;
+}
+/* Computer hardware components titles  */
+.id{
+    color: yellow;
+    display: inline-blocks;
+}
+
+/* Button title:Software  */
+.p1{
+    height: 243px;
+    
+    text-align: center;
+    font-size: 30px;
+    color: rgb(0, 0, 0);
+    
+    margin:0;
+    border: none;
+}
+/* Button title: Hardware*/
+.p2{
+    height: 243px;
+   
+    text-align: center;
+    font-size: 30px;
+    color: rgb(0, 0, 0);
+   
+    margin:0;
+    border: none;
+}
+/* Button title:The difference*/
+.p3{
+    height: 243px;
+   
+    text-align: center;
+    font-size: 30px;
+    color: rgb(0, 0, 0);
+    
+    margin:0;
+    border: none;
+}
+
+/* Button title:Contact us*/
+.p4{
+    height: 243px;
+    
+    text-align: center;
+    font-size: 30px;
+    color: rgb(0, 0, 0);
+   
+    margin:0;
+    border: none;
+}
+/* Start of the buttons design*/
+.button {
+    display: inline-block;
+    background: #4285f4;
+    color: #fff;
+    text-transform: uppercase;
+    padding: 20px 30px;
+    border-radius: 5px;
+    box-shadow: 0px 17px 10px -10px rgba(0, 0, 0, 0.4);
+    cursor: pointer;
+    transition:  300ms;
+    transition:  300ms;
+    margin-top: 30px;
+    margin-bottom: 100px;
+  }
+  .button:hover {
+    box-shadow: 0px 37px 20px -20px rgba(0, 0, 0, 0.2);
+    transform: translate(0px, -10px) scale(1.2);
+    transform: translate(0px, -10px) scale(1.2);
+  }
+.imgbutton{
+    background-image: url(software.jpg);
+    background-size:cover ;
+}
+/*End of the Buttons design */
+
+/* Start of the hardware components title design*/
+.h3{
+   
+    font-size: 35px;
+    text-align: center;
+    text-shadow: 5px 5px 9px rgba(0, 174, 255, 0.5);
+    color: white;
+}
+/*End of the hardware components title design */
+
+/* Start of the form area in Contact us page  */
+#form{
+    margin-top: 25px;
+}
+#email{
+    margin-right: 35px;
+}
+#phone{
+    margin-right: 5px;
+}
+fieldset{
+    background-color: rgba(23, 88, 114, 0.274);
+    text-align: center;
+    margin: 0 350px 25px 350px ;
+}
+legend ,strong{
+    color: rgb(238, 255, 6);
+    font-size: large;
+}
+a{
+    text-transform: uppercase;
+    color: white;
+}
+/*End of the form area in Contact us page  */
+
+/*space between Paragraphs found in any page */
+#space{
+    margin-right: 10px;
+}
+
+/* Hardware compoenents titles */
+#title{
+    color: rgb(204, 250, 2);
+    text-align: center;
+}
+ /*All lists found in the software and hardware page */
+ol li{
+    float: none;
+}
+/* an image about computer hardware */
+.hard{
+    float: right;
+    width: 400px;
+    height: 400px;
+    margin-left: 5px;
+}
+/*all images about computer hardware*/
+.pic{
+    width: 300px;
+    height: 250px;
+    float: right;
+} 
+/* spaces between words found in hardware and homepage page*/
+.linehi{
+    line-height: 30px;
+}
+/*  A border around the computer hardware components*/
+.border{
+    border: 2px solid rgb(255, 255, 255);
+    color: yellow;
+}
+/* an image about computer software*/
+.soft{
+    margin-left: 150px;
+    width: 500px;
+    height: 350px;
+}
+/* image about operation system found in software page*/
+.system{
+    margin-left:500px ;
+}
+/* A list design in software page */
+.unorder{
+    list-style-type: disc;
+    padding: 20px;
+    margin: 2px;
+    overflow:auto;
+    font-size: 16px;
+    text-transform: capitalize;
+}
+/* */
+.IQ{
+    text-transform: capitalize;
+    margin-left: 300px;
+    margin-right: 300px;
+    color: white;
+    word-spacing: normal;
+}
+/* */
+.yellow{
+    color: rgb(255, 251, 0);
+}
+/* */
+h2{
+    text-decoration-line: underline;
+    text-align: center;
+    color: white;
+    text-transform:capitalize;
+}
+/* */
+iframe{
+    margin-left: 200px;
+}
+/* text fromatting about any parapraph*/
+p{
+    text-transform: capitalize;
+    font-size: larger;
+    
+}
+
+/*Start of table design */
+table ,th,td
+{
+    border: 2px solid black;
+    border-collapse: collapse;
+    width: 750px;
+    height: 50px;
+}
+table{
+    margin-left: 90px;
+    
+}
+
+td{
+    line-height: 2.3;
+    color: white;
+    text-transform: capitalize;
+}
+th{
+    font-size: 30px;
+    color: rgb(240, 245, 247);
+    text-transform: capitalize;
+
+}
+td:hover{
+    color: white;
+    background-color: rgba(56, 56, 56, 0.219);
+}
+/*End of the table design */
+/* Quick info found in hardware page or the difference*/
+#info{
+    text-transform: capitalize;
+    color: white;
+    font-size: larger;
+}  
